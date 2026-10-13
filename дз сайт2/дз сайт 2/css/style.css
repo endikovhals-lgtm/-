@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fon {
+    background-image: url(/img/b24d030393c2a12403f02df01bc7bad9186789ad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.437);
+    width: 100%;
+    height: 8rem;
+    padding: 10px 30px;
+    color: aliceblue;
+}
+
+.logo {
+    width: 357px;
+    height: 82px;
+}
+
+.info {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;       
+
+}
+
+.info .a {
+    text-decoration: none;
+    color: white;
+}
+
+.info .a:hover {
+    color: rgb(255, 204, 187);
+}
+
+.vector {
+    height: 21px;
+    margin-right: 40px;
+}
+
+main {
+    padding: 300px;
+    max-width: 1600px;
+    margin: 0 auto;
+    color: white;
+}
+
+main h1 {
+    font-size: 64px;
+}
+
+main p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.Popular {
+    padding: 8vh;
+}
+
+.Popular h1 {
+    font-size: 60px;
+}
+
+.Popular p {
+    font-size: 18px;
+    color: #878787;
+    width: 577px;
+}
+
+.pupu {
+    margin-bottom: 40px;
+}
+
+.orem {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttom {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.buttom:hover {
+    transform: scale(1.1);
+    color: rgb(198, 198, 198);
+}
+
+section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Paris {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px #00000067;
+    width: 505px;
+}
+
+.Paris img {
+    width: 444px;
+    height: 319px;
+    border-radius: 10px;
+}
+
+.Par {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding: 20px 0px;
+}
+
+.Par p {
+    font-size: 24px;
+    color: black;
+}
+
+.Paris .Lorem {
+    color: #555555;
+    width: 430px;
+    padding: 20px 0px;
+    font-size: 14px;
+}
+
+.Paris .star {
+    width: 21px;
+    height: 21px;
+}
+
+.Paris .buttom {
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+.stbut {
+    padding: 30px 0px;
+}
+
+.fon2 {
+    background-image: url(/img/9b5b3fe2a8e50166bd2fc32fadf555da1b1f1029.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 80vh;
+}
+
+main .Tipss {
+    width: 100%;
+}
+
+.Tip {
+    display: flex;
+}
+
+.Tips h1 {
+    color: black;
+}
+
+.Tips h3 {
+    color: #515151;
+}
+
+.Tipss .buttom {
+    font-size: 22px;
+    padding-left: 60px;
+    padding-top: 28px;
+    background-color: black;
+    border-radius: 50px;
+    width: 300px;
+    height: 80px;
+}
+
+.cart {
+    color: black;
+    box-shadow: 0px 10px 10px 0px #00000067;
+    padding: 60px;
+    width: 60vh;
+}
+
+.cart h2 {
+    color: #343434;
+    font-size: 18px;
+}
+
+section {
+    margin: 50px;
+}
+
+.cart2 img {
+    width: 792px;
+}
+
+.carts {
+    display: flex;
+    gap: 30px;
+}
+
+.cart3 {
+    color: black;
+    box-shadow: 0px 10px 10px 0px #00000067;
+    padding: 60px;
+    width: 84vh;
+}
+
+.cart3 h2 {
+    color: #343434;
+    font-size: 18px;
+}
+
+.cart .buttom {
+    margin-top: 20px;
+    display: block;
+    padding-left: 90px;
+}
+
+.cart3 .buttom {
+    margin-top: 300px;
+    display: block;
+    padding-left: 90px;
+}
